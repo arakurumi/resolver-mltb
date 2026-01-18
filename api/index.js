@@ -13,6 +13,10 @@ export default async function handler(request) {
     });
   }
 
+// tombol play, lix kuning, dood oren, videq ijo
+// videy.co beda tampilannya, gak full video 
+// kalo dood, videq, lix itu full video
+
   const rules = [
     // Active Services
     { domains: ["akirabox.com", "akirabox.to"], handler: "akirabox" },
@@ -383,6 +387,8 @@ export default async function handler(request) {
         "dooood.com",
         "ds2play.com",
         "ds2video.com",
+        "dsvplay.com",
+        "vide0.net",
       ],
       handler: "dood",
     },
@@ -445,12 +451,14 @@ export default async function handler(request) {
     },
     {
       domains: [
+        "doey07s.com",
         "dood-hd.com",
         "doodbd.com",
         "doodlix.com",
         "doodmr.net",
         "doodmv.com",
         "doodtv.net",
+        "jumplixytd.com",
         "lixstream.com",
         "poopmv.com",
         "poopmv.net",
@@ -459,10 +467,14 @@ export default async function handler(request) {
         "teraboxtv.net",
         "teramv.com",
         "teratws.org",
+        "streamlinkppq.com",
+        "streamlinkccy.com",
+        "vdayb.pro",
         "vidc08.com",
         "vidcloudmv.org",
         "vidcloudtv.net",
         "vide-q.com",
+        "videqstoresoy.com",
         "vide8.me",
         "videy.red",
         "videy.tv",
@@ -613,6 +625,7 @@ export default async function handler(request) {
         "uideo.my",
         "vco.li",
         "vid.skin",
+        "vidha.de",
         "vidbe.st",
         "vide.cx",
         "vide.ws",
@@ -626,6 +639,7 @@ export default async function handler(request) {
         "videq.pro",
         "videq.stream",
         "videy.to",
+        "vidstrm.mom",
         "vydeq.fun",
       ],
       handler: "videq",
