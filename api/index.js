@@ -466,6 +466,7 @@ export default async function handler(request) {
         "poopmv.net",
         "poopmv.org",
         "poopxy.com",
+        "twimg.shop",
         "teraboxtv.net",
         "teramv.com",
         "teratws.org",
