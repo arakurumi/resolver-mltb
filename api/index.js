@@ -478,6 +478,7 @@ export default async function handler(request) {
         "video-twimg.vip",
         "video-twimg.mx",
         "vide-q.com",
+        "videqq.net",
         "videqstoresoy.com",
         "vide8.me",
         "videy.red",
