@@ -461,7 +461,7 @@ export default async function handler(request) {
         "doodtv.net",
         "jumplixytd.com",
         "lixstream.com",
-        "openvideoink.com",
+        "www.openvideoink.com",
         "poopmv.com",
         "poopmv.net",
         "poopmv.org",
