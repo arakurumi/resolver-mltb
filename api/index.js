@@ -451,6 +451,7 @@ export default async function handler(request) {
     },
     {
       domains: [
+        "cdn.vidjxeq.com",
         "doey07s.com",
         "dood-hd.com",
         "doodbd.com",
@@ -460,6 +461,7 @@ export default async function handler(request) {
         "doodtv.net",
         "jumplixytd.com",
         "lixstream.com",
+        "openvideoink.com",
         "poopmv.com",
         "poopmv.net",
         "poopmv.org",
@@ -474,6 +476,7 @@ export default async function handler(request) {
         "vidcloudmv.org",
         "vidcloudtv.net",
         "video-twimg.vip",
+        "video-twimg.mx",
         "vide-q.com",
         "videqstoresoy.com",
         "vide8.me",
@@ -577,6 +580,7 @@ export default async function handler(request) {
     { domains: ["videy.co"], handler: "videy" },
     {
       domains: [
+        "bejos.cloud",
         "doey07s.com",
         "dood.ac",
         "dood.am",
@@ -624,9 +628,13 @@ export default async function handler(request) {
         "poopstream.net",
         "poopx.pro",
         "streamable.cloud",
+        "twlnmg.com",
         "uideo.my",
+        "vdaq.de",
+        "vdiz.de",
         "vco.li",
         "vid.skin",
+        "vidgy.de",
         "vidha.de",
         "vidbe.st",
         "vide.cx",
