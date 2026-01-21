@@ -13,9 +13,16 @@ export default async function handler(request) {
     });
   }
 
-// tombol play, lix kuning, dood oren, videq ijo
-// videy.co beda tampilannya, gak full video 
-// kalo dood, videq, lix itu full video
+  // Read before Adding Domain //
+  // ========================= //
+  // kalo dood, videq, lix itu full video
+  // tombol play, lix kuning, dood oren, videq ijo
+  // videy.co beda tampilannya, gak full video
+  // pastikan domain memiliki extension (.com .net dsb)
+  // pastikan format script sebelum push (prettier)
+  // pastikan sort domain sebelum push (sort line ascending)
+  // ========================= //
+  // Read before Adding Domain //
 
   const rules = [
     // Active Services
@@ -31,7 +38,7 @@ export default async function handler(request) {
     },
     {
       domains: [
-        //"1fichier.com",
+        // "1fichier.com", // Handled by MLTB
         "4shared.com",
         "4tube.com",
         "academicearth.org",
@@ -90,7 +97,7 @@ export default async function handler(request) {
         "dotsub.com",
         "drop.download",
         "dropapk.to",
-        //"dropbox.com",
+        // "dropbox.com", // Handled by MLTB
         "dropgalaxy.in",
         "e.pcloud.link",
         "ebaumsworld.com",
@@ -123,7 +130,7 @@ export default async function handler(request) {
         "gameinformer.com",
         "gamersyde.com",
         "gigapeta.com",
-        //"gofile.io",
+        // "gofile.io", // Handled by MLTB
         "goloady.com",
         "gorillavid.in",
         "gulf-up.com",
@@ -166,9 +173,9 @@ export default async function handler(request) {
         "md3b0j6hj.com",
         "mdy48tn97.com",
         "mediafile.cc",
-        //"mediafire.com",
-        //"mega.co.nz",
-        //"mega.nz",
+        // "mediafire.com", // Handled by MLTB
+        // "mega.co.nz", // Handled by MLTB
+        // "mega.nz", // Handled by MLTB
         "megadl.fr",
         "megadl.org",
         "mesfichiers.fr",
@@ -203,7 +210,7 @@ export default async function handler(request) {
         "opvid.org",
         "ora.tv",
         "piecejointe.net",
-        //"pixeldrain.com",
+        // "pixeldrain.com", // Handled by MLTB
         "pjointe.com",
         "play.fm",
         "play.lcp.fr",
@@ -218,7 +225,7 @@ export default async function handler(request) {
         "pyvideo.org",
         "rapidfileshare.net",
         "rapidgator.asia",
-        //"rapidgator.net",
+        // "rapidgator.net", // Handled by MLTB
         "redtube.com",
         "reverbnation.com",
         "revision3.com",
@@ -258,8 +265,8 @@ export default async function handler(request) {
         "teamcoco.com",
         "ted.com",
         "tenvoi.com",
-        //"terabox.app",
-        //"terabox.com",
+        // "terabox.app", // Handled by MLTB
+        // "terabox.com", // Handled by MLTB
         "terabytez.org",
         "tezfiles.com",
         "tfo.org",
@@ -364,11 +371,15 @@ export default async function handler(request) {
     { domains: ["devuploads.com"], handler: "devuploads" },
     {
       domains: [
+        "d-s.io",
+        "d0000d.com",
         "d000d.com",
         "d0o0d.com",
         "do0od.com",
+        "do7go.com",
         "dood.cx",
         "dood.la",
+        "dood.li",
         "dood.pm",
         "dood.re",
         "dood.sh",
@@ -378,17 +389,23 @@ export default async function handler(request) {
         "dood.video",
         "dood.watch",
         "dood.wf",
+        "dood.work",
         "dood.ws",
         "dood.yt",
         "doods.pro",
         "doods.yt",
         "doodstream.co",
         "doodstream.com",
+        "dooodster.com",
         "dooood.com",
+        "doply.net",
         "ds2play.com",
         "ds2video.com",
         "dsvplay.com",
+        "myvidplay.com",
         "vide0.net",
+        "videyz.lol",
+        "vidply.com",
       ],
       handler: "dood",
     },
@@ -406,7 +423,9 @@ export default async function handler(request) {
         "kissmovies.net",
         "kitabmarkaz.xyz",
         "mycloudz.cc",
+        "streamwish.com",
         "streamwish.to",
+        "swdyu.com",
         "vidhide.com",
         "vidhidepro.com",
         "wishfast.top",
@@ -456,32 +475,36 @@ export default async function handler(request) {
         "dood-hd.com",
         "doodbd.com",
         "doodlix.com",
+        "doodlix.org",
         "doodmr.net",
         "doodmv.com",
+        "doodmv.net",
         "doodtv.net",
         "jumplixytd.com",
         "lixstream.com",
-        "www.openvideoink.com",
+        "openvideoink.com",
         "poopmv.com",
         "poopmv.net",
         "poopmv.org",
         "poopxy.com",
-        "twimg.shop",
+        "streamlinkccy.com",
         "teraboxtv.net",
         "teramv.com",
+        "teratvs.org",
         "teratws.org",
-        "streamlinkppq.com",
-        "streamlinkccy.com",
+        "twimg.shop",
         "vdayb.pro",
         "vidc08.com",
         "vidcloudmv.org",
         "vidcloudtv.net",
-        "video-twimg.vip",
-        "video-twimg.mx",
+        "vidco0.com",
         "vide-q.com",
+        "vide0.me",
+        "vide8.me",
+        "video-twimg.mx",
+        "video-twimg.vip",
         "videqq.net",
         "videqstoresoy.com",
-        "vide8.me",
         "videy.red",
         "videy.tv",
         "videyf.com",
@@ -586,7 +609,6 @@ export default async function handler(request) {
         "doey07s.com",
         "dood.ac",
         "dood.am",
-        "dood.am",
         "dood.fans",
         "dood.is",
         "dood.lu",
@@ -608,8 +630,6 @@ export default async function handler(request) {
         "poop.asia",
         "poop.blue",
         "poop.direct",
-        "poop.direct",
-        "poop.direct",
         "poop.ee",
         "poop.li",
         "poop.name",
@@ -622,7 +642,6 @@ export default async function handler(request) {
         "poophd.net",
         "poophd.pm",
         "poophd.pro",
-        "poophd.pro",
         "poopki.com",
         "poops.id",
         "poops.video",
@@ -631,27 +650,33 @@ export default async function handler(request) {
         "poopx.pro",
         "streamable.cloud",
         "twlnmg.com",
+        // "uideo.", // Invalid domain
         "uideo.my",
+        "upl.ad",
+        "vco.li",
         "vdaq.de",
         "vdiz.de",
-        "vco.li",
         "vid.skin",
-        "vidgy.de",
-        "vidha.de",
+        "vid7.online",
         "vidbe.st",
+        // "vide.", // Invalid domain
         "vide.cx",
         "vide.ws",
         "vide10.com",
         "vide14.com",
         "vide20.com",
+        // "videeq.", // Invalid domain
         "videeq.com",
         "video.twimg.skin",
         "videq-r.com",
-        "videq.",
+        // "videq.", // Invalid domain
         "videq.cloud",
         "videq.pro",
         "videq.stream",
+        "videw.online",
         "videy.to",
+        "vidgy.de",
+        // "vidoy.", // Invalid domain
         "vidstrm.mom",
         "vydeq.fun",
       ],
@@ -689,7 +714,7 @@ export default async function handler(request) {
   ];
 
   const match = rules.find((rule) =>
-    rule.domains.some((d) => urlData.includes(d))
+    rule.domains.some((d) => urlData.includes(d)),
   );
 
   if (match) {
