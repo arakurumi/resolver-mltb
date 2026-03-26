@@ -442,16 +442,14 @@ export default async function handler(request) {
     { domains: ["hxfile.co"], handler: "hxfile" },
     {
       domains: [
-        "access.mikasaforever.workers.dev",
         "cdn.ctrlfilms.eu.org",
         "cloud-oyen.eu.org",
         "database.s3cr3t.workers.dev",
         "index.3nk.workers.dev",
-        "mks-5h4r3.p3tr1x.workers.dev",
         "seikel.web.id",
         "share.eqrtz.workers.dev",
+        "sineflix.ultradrivecloud.workers.dev",
         "somestuff.web.id",
-        "vip.s3cr3t.workers.dev",
       ],
       handler: "index",
     },
