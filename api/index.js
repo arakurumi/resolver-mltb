@@ -600,7 +600,7 @@ export default async function handler(request) {
     { domains: ["upload.ee"], handler: "uploadee" },
     { domains: ["uploadhaven.com"], handler: "uploadhaven" },
     { domains: ["uploadrar.com"], handler: "uploadrar" },
-    { domains: ["videy.co"], handler: "videy" },
+    { domains: ["videy.co", "wiidoy.com"], handler: "videy" },
     {
       domains: [
         "bejos.cloud",
