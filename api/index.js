@@ -435,6 +435,10 @@ export default async function handler(request) {
     { domains: ["filemirage.com"], handler: "filemirage" },
     { domains: ["filepress.cloud", "filepress.today"], handler: "filepress" },
     { domains: ["fuckingfast.co"], handler: "fuckingfast" },
+    {
+      domains: ["gdflix.dev", "gdflix.net"],
+      handler: "gdflix",
+    },
     { domains: ["gigafile.nu"], handler: "gigafile" },
     { domains: ["github.com"], handler: "github" },
     { domains: ["gofile.io"], handler: "gofile" },
