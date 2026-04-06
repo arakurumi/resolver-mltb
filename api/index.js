@@ -9,7 +9,7 @@ export default async function handler(request) {
   if (!urlData) {
     return Response.json({
       status: 404,
-      message: "URL Not Found.",
+      message: "URL not found.",
     });
   }
 
@@ -734,6 +734,6 @@ export default async function handler(request) {
 
   return Response.json({
     status: 404,
-    message: "URL Not Supported.",
+    message: "URL not supported.",
   });
 }
