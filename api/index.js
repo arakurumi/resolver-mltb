@@ -606,6 +606,7 @@ export default async function handler(request) {
     { domains: ["uploadrar.com"], handler: "uploadrar" },
     {
       domains: [
+        "cdeyy.de",
         "doodd.stream",
         "twing.ink",
         "videy.co",
