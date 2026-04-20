@@ -698,6 +698,10 @@ export default async function handler(request) {
       domains: ["vikingf1le.us.to", "vikingfile.com"],
       handler: "vikingfile",
     },
+    {
+      domains: ["vivoy.co"],
+      handler: "vivoy",
+    },
     { domains: ["we.tl", "wetransfer.com"], handler: "wetransfer" },
     { domains: ["disk.yandex", "yadi.sk"], handler: "yandex" },
     // Dead Services
