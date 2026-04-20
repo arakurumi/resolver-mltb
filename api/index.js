@@ -699,7 +699,7 @@ export default async function handler(request) {
       handler: "vikingfile",
     },
     {
-      domains: ["vivoy.co"],
+      domains: ["aveimg.com", "vivoy.co"],
       handler: "vivoy",
     },
     { domains: ["we.tl", "wetransfer.com"], handler: "wetransfer" },
