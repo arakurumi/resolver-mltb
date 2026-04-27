@@ -555,6 +555,7 @@ export default async function handler(request) {
     { domains: ["sharer"], handler: "sharer" },
     { domains: ["sfile.mobi"], handler: "sfile" },
     { domains: ["shrdsk.me"], handler: "shrdsk" },
+    { domains: ["slicedrive.my"], handler: "slicedrive" },
     { domains: ["solidfiles.com"], handler: "solidfiles" },
     {
       domains: ["sourceforge.com", "sourceforge.net"],
