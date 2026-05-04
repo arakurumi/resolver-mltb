@@ -556,7 +556,12 @@ export default async function handler(request) {
     { domains: ["sfile.mobi"], handler: "sfile" },
     { domains: ["shrdsk.me"], handler: "shrdsk" },
     {
-      domains: ["siicedriva.com", "slicedrive.com", "twing.live"],
+      domains: [
+        "siicedriva.com",
+        "slicedrive.com",
+        "slicsdrive.com",
+        "twing.live",
+      ],
       handler: "slicedrive",
     },
     { domains: ["solidfiles.com"], handler: "solidfiles" },
