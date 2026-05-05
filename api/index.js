@@ -705,7 +705,7 @@ export default async function handler(request) {
       handler: "videq",
     },
     {
-      domains: ["vikingf1le.us.to", "vikingfile.com"],
+      domains: ["vik1ngfile.site", "vikingf1le.us.to", "vikingfile.com"],
       handler: "vikingfile",
     },
     {
