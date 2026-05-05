@@ -33,7 +33,7 @@ export default async function handler(request) {
     { domains: ["apkadmin.com", "sharemods.com"], handler: "apkadmin" },
     { domains: ["berkasdrive.com"], handler: "berkasdrive" },
     {
-      domains: ["buzzheavier.com", "bzzhr.co", "fuckingfast.net"],
+      domains: ["buzzheavier.com", "bzzhr.co", "bzzhr.to"],
       handler: "buzzheavier",
     },
     {
