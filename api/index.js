@@ -560,6 +560,7 @@ export default async function handler(request) {
         "siicedriva.com",
         "slicedrive.com",
         "slicsdrive.com",
+        "slizedrive.com",
         "twing.live",
       ],
       handler: "slicedrive",
