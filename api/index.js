@@ -559,6 +559,7 @@ export default async function handler(request) {
       domains: [
         "siicedriva.com",
         "slicedrive.com",
+        "slicidrive.com",
         "slicsdrive.com",
         "slizedrive.com",
         "twing.live",
