@@ -711,6 +711,7 @@ export default async function handler(request) {
       domains: ["vik1ngfile.site", "vikingf1le.us.to", "vikingfile.com"],
       handler: "vikingfile",
     },
+    { domains: ["viode.de"], handler: "viode" },
     {
       domains: ["aveimg.com", "vivoy.co"],
       handler: "vivoy",
