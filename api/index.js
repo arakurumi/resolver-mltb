@@ -15,9 +15,6 @@ export default async function handler(request) {
 
   // Read before Adding Domain //
   // ========================= //
-  // kalo dood, videq, lix itu full video
-  // tombol play, lix kuning, dood oren, videq ijo
-  // videy.co beda tampilannya, gak full video
   // pastikan domain memiliki extension (.com .net dsb)
   // pastikan format script sebelum push (prettier)
   // pastikan sort domain sebelum push (sort line ascending)
@@ -412,6 +409,7 @@ export default async function handler(request) {
     { domains: ["dropbox.com"], handler: "dropbox" },
     { domains: ["easyupload.io"], handler: "easyupload" },
     { domains: ["1fichier.com"], handler: "fichier" },
+    { domains: ["fileditch.com", "fileditchfiles.me"], handler: "fichier" },
     {
       domains: [
         "cabecabean.lol",
