@@ -3,7 +3,10 @@ export const config = {
 };
 
 export async function GET(request) {
-	const url = new URL(request.url, `https://${request.headers.host || "resolver.vercel.app"}`);
+	const url = new URL(
+		request.url,
+		`https://${request.headers.host || "resolver.vercel.app"}`,
+	);
 	const urlData = url.searchParams.get("url");
 
 	if (!urlData) {
