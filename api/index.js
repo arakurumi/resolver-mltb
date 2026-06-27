@@ -1,8 +1,8 @@
-export const _config = {
-	runtime: "edge",
+export const config = {
+	runtime: "nodejs",
 };
 
-export default async function handler(request) {
+export async function GET(request) {
 	const url = new URL(request.url, `https://${request.headers.host || "resolver.vercel.app"}`);
 	const urlData = url.searchParams.get("url");
 
