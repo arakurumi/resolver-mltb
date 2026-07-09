@@ -26,6 +26,8 @@ export async function GET(request) {
 
 	const rules = [
 		// Active Services
+		{ domains: ["1fichier.com"], handler: "fichier" },
+		{ domains: ["0807.st"], handler: "zeroeightseven" },
 		{ domains: ["akirabox.com", "akirabox.to"], handler: "akirabox" },
 		{ domains: ["akmfiles.com", "akmfls.xyz"], handler: "akmfiles" },
 		{ domains: ["androiddatahost.com"], handler: "androiddatahost" },
@@ -36,6 +38,7 @@ export async function GET(request) {
 			domains: ["buzzheavier.com", "bzzhr.co", "bzzhr.to"],
 			handler: "buzzheavier",
 		},
+		{ domains: ["datanodes.to"], handler: "datanodes" },
 		{
 			domains: [
 				// "1fichier.com", // Handled by MLTB
@@ -411,7 +414,6 @@ export async function GET(request) {
 		},
 		{ domains: ["dropbox.com"], handler: "dropbox" },
 		{ domains: ["easyupload.io"], handler: "easyupload" },
-		{ domains: ["1fichier.com"], handler: "fichier" },
 		{ domains: ["fileditch.com", "fileditchfiles.me"], handler: "fileditch" },
 		{
 			domains: [
