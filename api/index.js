@@ -38,6 +38,7 @@ export async function GET(request) {
 			domains: ["buzzheavier.com", "bzzhr.co", "bzzhr.to"],
 			handler: "buzzheavier",
 		},
+		{ domains: ["cdeyy.de"], handler: "cdeyy" },
 		{ domains: ["datanodes.to"], handler: "datanodes" },
 		{
 			domains: [
