@@ -619,7 +619,7 @@ export async function GET(request) {
 		{ domains: ["upload.ee"], handler: "uploadee" },
 		{ domains: ["uploadhaven.com"], handler: "uploadhaven" },
 		{ domains: ["uploadrar.com"], handler: "uploadrar" },
-		{ domains: ["vidara.to"], handler: "vidara" },
+		{ domains: ["vidara.to", "vidara.so", "vidara.cc"], handler: "vidara" },
 		{
 			domains: [
 				"cdeyy.de",
