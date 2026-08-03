@@ -615,6 +615,7 @@ export async function GET(request) {
 		{ domains: ["tmpsend.com"], handler: "tmpsend" },
 		{ domains: ["transfer.it"], handler: "transfer" },
 		{ domains: ["tusfiles.com", "tusfiles.net"], handler: "tusfiles" },
+		{ domains: ["uc-share.com"], handler: "ucweb" },
 		{ domains: ["u.pcloud.link"], handler: "pcloud" },
 		{ domains: ["upload.ee"], handler: "uploadee" },
 		{ domains: ["uploadhaven.com"], handler: "uploadhaven" },
