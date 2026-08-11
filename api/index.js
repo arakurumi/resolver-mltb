@@ -33,6 +33,7 @@ export async function GET(request) {
 		{ domains: ["androiddatahost.com"], handler: "androiddatahost" },
 		{ domains: ["androidfilehost.com"], handler: "androidfilehost" },
 		{ domains: ["apkadmin.com", "sharemods.com"], handler: "apkadmin" },
+		{ domains: ["aceimg.com"], handler: "aceimg" }
 		{ domains: ["berkasdrive.com"], handler: "berkasdrive" },
 		{
 			domains: ["buzzheavier.com", "bzzhr.co", "bzzhr.to"],
