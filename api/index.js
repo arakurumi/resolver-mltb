@@ -699,6 +699,7 @@ export async function GET(request) {
 				"vide20.com",
 				// "videeq.", // Invalid domain
 				"videeq.com",
+				"cdn.up2file.online",
 				"video.twimg.skin",
 				"videq-r.com",
 				// "videq.", // Invalid domain
@@ -709,6 +710,7 @@ export async function GET(request) {
 				"videy.to",
 				"vidgy.de",
 				// "vidoy.", // Invalid domain
+				"up2file.online",
 				"vidstrm.mom",
 				"vydeq.fun",
 			],
