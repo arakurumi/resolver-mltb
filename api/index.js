@@ -681,6 +681,7 @@ export async function GET(request) {
 				"poopstream.net",
 				"poopx.pro",
 				"streamable.cloud",
+				"streamrizz.com",
 				"twlnmg.com",
 				// "uideo.", // Invalid domain
 				"uideo.my",
@@ -690,6 +691,7 @@ export async function GET(request) {
 				"vdiz.de",
 				"vid.skin",
 				"vid7.online",
+				"vid9.live",
 				"vidbe.st",
 				// "vide.", // Invalid domain
 				"vide.cx",
