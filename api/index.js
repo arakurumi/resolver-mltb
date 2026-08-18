@@ -652,6 +652,7 @@ export async function GET(request) {
 				"doods.am",
 				"doods.at",
 				"hek.al",
+				"imgd.cx",
 				"lixvy.de",
 				"mp4.bio",
 				"mp4cash.com",
@@ -723,7 +724,6 @@ export async function GET(request) {
 			handler: "vikingfile",
 		},
 		{ domains: ["viode.de"], handler: "viode" },
-		{ domains: ["imgd.cx"], handler: "videq" },
 		{
 			domains: ["justpaste.it", "justpaste.me", "justpaste.pro", "weekendletters.store"],
 			handler: "justpaste",
