@@ -723,6 +723,11 @@ export async function GET(request) {
 			handler: "vikingfile",
 		},
 		{ domains: ["viode.de"], handler: "viode" },
+		{ domains: ["imgd.cx"], handler: "videq" },
+		{
+			domains: ["justpaste.it", "justpaste.me", "justpaste.pro", "weekendletters.store"],
+			handler: "justpaste",
+		},
 		{
 			domains: ["aveimg.com", "vivoy.co"],
 			handler: "vivoy",
