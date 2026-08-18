@@ -580,6 +580,7 @@ export async function GET(request) {
 		{ domains: ["streamhub.ink", "streamhub.to"], handler: "streamhub" },
 		{
 			domains: [
+				"advtpe.com",
 				"streamta.pe",
 				"streamtape.cc",
 				"streamtape.co",
@@ -725,7 +726,12 @@ export async function GET(request) {
 		},
 		{ domains: ["viode.de"], handler: "viode" },
 		{
-			domains: ["justpaste.it", "justpaste.me", "justpaste.pro", "weekendletters.store"],
+			domains: [
+				"justpaste.it",
+				"justpaste.me",
+				"justpaste.pro",
+				"weekendletters.store",
+			],
 			handler: "justpaste",
 		},
 		{
