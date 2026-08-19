@@ -408,6 +408,7 @@ export async function GET(request) {
 				"ds2video.com",
 				"dsvplay.com",
 				"myvidplay.com",
+				"playmogo.com",
 				"vide0.net",
 				"videyz.lol",
 				"vidply.com",
