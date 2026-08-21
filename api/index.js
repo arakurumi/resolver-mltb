@@ -465,7 +465,10 @@ export async function GET(request) {
 			handler: "index",
 		},
 		{ domains: ["krakenfiles.com"], handler: "krakenfiles" },
-		{ domains: ["cdn.0000456.xyz", "index.0000456.xyz"], handler: "kurumi" },
+		{
+			domains: ["cdn.0000456.xyz", "dl.0000456.xyz", "index.0000456.xyz"],
+			handler: "kurumi",
+		},
 		{
 			domains: [
 				"lbx.to",
