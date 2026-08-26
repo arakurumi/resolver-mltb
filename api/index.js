@@ -629,7 +629,13 @@ export async function GET(request) {
 		{ domains: ["uploadrar.com"], handler: "uploadrar" },
 		{ domains: ["videza.co"], handler: "videza" },
 		{
-			domains: ["vidara.to", "vidara.so", "vidara.cc", "weekendletters.shop"],
+			domains: [
+				"vidara.to",
+				"vidara.so",
+				"vidara.cc",
+				"weekendletters.shop",
+				"weekendletters.cc",
+			],
 			handler: "vidara",
 		},
 		{
