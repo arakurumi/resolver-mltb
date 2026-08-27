@@ -635,6 +635,7 @@ export async function GET(request) {
 				"vidara.cc",
 				"weekendletters.shop",
 				"weekendletters.cc",
+				"uidara.pro",
 			],
 			handler: "vidara",
 		},
