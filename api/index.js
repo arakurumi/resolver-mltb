@@ -699,12 +699,12 @@ export async function GET(request) {
 				"streamable.cloud",
 				"streamrizz.com",
 				"twlnmg.com",
-				// "uideo.", // Invalid domain
 				"uideo.my",
 				"upl.ad",
 				"vco.li",
 				"vdaq.de",
 				"vdiz.de",
+				"vdko.de",
 				"vid.skin",
 				"vid7.online",
 				"vid9.live",
