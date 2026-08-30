@@ -650,6 +650,7 @@ export async function GET(request) {
 			],
 			handler: "videy",
 		},
+		{ domains: ["videe.cc"], handler: "videe" },
 		{
 			domains: [
 				"bejos.cloud",
