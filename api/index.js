@@ -28,6 +28,7 @@ export async function GET(request) {
 		// Active Services
 		{ domains: ["1fichier.com"], handler: "fichier" },
 		{ domains: ["0807.st"], handler: "zeroeightseven" },
+		{ domains: ["123av.com"], handler: "javplayer" },
 		{ domains: ["akirabox.com", "akirabox.to"], handler: "akirabox" },
 		{ domains: ["akmfiles.com", "akmfls.xyz"], handler: "akmfiles" },
 		{ domains: ["androiddatahost.com"], handler: "androiddatahost" },
@@ -464,6 +465,7 @@ export async function GET(request) {
 			],
 			handler: "index",
 		},
+		{ domains: ["javplayer.cc"], handler: "javplayer" },
 		{ domains: ["krakenfiles.com"], handler: "krakenfiles" },
 		{
 			domains: ["cdn.0000456.xyz", "dl.0000456.xyz", "index.0000456.xyz"],
